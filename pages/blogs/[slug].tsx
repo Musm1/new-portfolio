@@ -43,15 +43,6 @@ const slug = ({post}: Props) => {
                     dataset={process.env.NEXT_PUBLIC_SANITY_DATASET}
                     projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}
                     content={post.body}
-                    // serializers={{
-                    //     li:({children}:any)=>{
-                    //         <li className='ml-4 list-disc'>{children}</li>
-                    //     },
-                    //     link: ({href,children}:any)=>{
-                    //         <a className="text-blue-500 hover:underline" href={href}>{children}</a>
-                    //     },
-                        
-                    // }}
                 />
             </div>
             </div>
@@ -78,7 +69,7 @@ export const getStaticPaths = async () => {
   }))
   return {
       paths,
-      fallback: 'blocking',
+      fallback: false ,
   }
 };
 
