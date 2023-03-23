@@ -19,7 +19,7 @@ const BlogHeader = () => {
           transition={{
             duration:1.5,
           }}>
-            {/* <Link href="/" className='px-4 py-1 text-xl text-green-600 '>My Portfolio</Link> */}
+            <Link href="/" className='px-4 py-1 text-xl text-green-600 '>My Portfolio</Link>
         </motion.div>
         <motion.div
          initial={{
