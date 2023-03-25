@@ -72,7 +72,7 @@ export default function Home(props:Props) {
         <Contact/>
       </section>
 
-      <Link href="#hero">
+      {/* <Link href="#hero">
           <footer className='sticky w-full cursor-pointer bottom-5'>
             <div className='flex items-center justify-center'>
               <ArrowLongUpIcon 
@@ -80,7 +80,7 @@ export default function Home(props:Props) {
              />
             </div>
           </footer>
-      </Link>
+      </Link> */}
 
     </div>
   )
