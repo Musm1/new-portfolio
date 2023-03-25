@@ -41,7 +41,7 @@ const About = ({pageInfo}: Props) => {
         viewport={{
             once: true
         }}
-        className="-mb-20 md:mb-0 mt-[20px] md:mt-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]"
+        className="hidden sm:inline-flex -mb-20 md:mb-0 mt-[20px] md:mt-0 flex-shrink-0 w-36 h-36 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px]"
         src={urlFor(pageInfo?.heroImage).url()}
         />
         <div className='px-0 space-y-10 md:px-10'>
