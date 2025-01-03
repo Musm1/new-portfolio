@@ -25,6 +25,8 @@ type Props={
 }
 
 export default function Home(props:Props) {
+  console.log('this is dataset:::: ',process.env.NEXT_PUBLIC_SANITY_DATASET);
+  console.log('this is project id::: ',process.env.NEXT_PUBLIC_SANITY_PROJECT_ID);
   
    const {pageInfo,experiences,skills,projects,socials }= props;
 
